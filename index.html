@@ -23,12 +23,26 @@
                 height: 200px;
                 background: purple;
             }
-            a[href="https://oklads.in"]{
+            a[href="https://oklabs.in"]{
                 display: block;
                 width: 200px;
                 height: 200px;
                 background: lavender;
                 text-decoration: none;
+            }
+            *{
+                border: 10px solid #000;
+                
+            }
+            div,span#a1,span.b1,a[href="https://oklabs.in"]{
+                display: inline-block;
+            }
+            
+            h1::after{
+                content: url(https://media.tenor.com/TYGaQfylEvQAAAAi/auque-7-dias-tarde.gif);
+            }
+            div:hover{
+                background-color: green;
             }
         </style>
     </head>
@@ -36,6 +50,8 @@
         <div>css element selectors</div>
         <span id="a1">css id selectors</span>
         <span class="b1">css class selectors</span>
-        <a href="https://oklads.in">css attribute selectors</a>
+        <a href="https://oklabs.in">css attribute selectors</a>
+        <h1>css pesudo element selectors</h1>
+        <div id="c1">css pesudo class selectors</div>
     </body>
 </html>
